@@ -1,0 +1,49 @@
+#room__container {
+    display: grid;
+    grid-template-columns: 200px 800px;
+    /* Con este codigo le estamos diciendo que queremos dos columnas,
+    la primera que mide 300px de ancho y la segunda 400 px de ancho
+    */
+}
+
+#participants__container {
+    border-right: #797a79;
+}
+
+#messages {
+    height: 100vh;
+    overflow: auto;
+}
+
+.message__wrapper {
+    background-color: #363739;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.member__wrapper {
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.green__dot {
+    display: block;
+    height: 10px;
+    width: 10px;
+    background-color: #2aca3e;
+    border-radius: 50%;
+}
+
+#form__container {
+    position: fixed;
+    bottom: 0;
+    left: 200px;
+}
+
+#message__form input {
+    background-color: #3f434a;
+    padding: 20px;
+    color: #fff;
+}
